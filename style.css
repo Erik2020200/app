@@ -1,0 +1,67 @@
+
+body {
+    background-image: url('./image/header-bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 23px;
+}
+nav > a,
+.contacts > a {
+    padding: 32px;
+    color: #e4d8cc;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header-description {
+    padding: 364px 0px 14px 64px;
+}
+.header-description > h1 {
+    width: 838px;
+    margin: 298px 378px 14px 64px;
+    color: #e4d8cc;
+    font-family: inter;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+.div1 > p {
+    width: 561px;
+    margin: 14px 655px 42px 64px;
+    color: #c3bab1;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.button1 {
+    width: 218px;
+    height: 52px;
+    margin: 42px 16px 116px 64px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #7837f3;
+    background: #7837f3;
+    text-align: center;
+    color: #fff;
+}
+.button2 {
+    width: 170px;
+    height: 52px;
+    margin: 42px 812px 116px 16px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #e4d8cc;
+    background: #e4d8cc;
+}
